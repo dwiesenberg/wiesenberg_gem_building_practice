@@ -1,0 +1,208 @@
+/* About page */
+/* header bar */
+/* body {
+  padding-top: 50px;
+  padding-bottom: 20px;    */
+/* (from jumbotron.css.2)
+    "move down content because
+    fixed navbar is 50px tall" } */
+/* header bar */
+
+a:link {
+  text-decoration: underline;
+}
+
+#myNavbar {
+  background-color: DodgerBlue;
+  /* azure */
+  color: white;
+  padding-left: 100px; }
+
+.danish-flag {
+  height: 30px;
+  width: auto; }
+
+h2.danebook-header {
+  /* margin-top: 10px; */
+  margin: 14px; }
+
+.search-for-users {
+  height: 32px;
+  width: 700px;
+  margin-top: 13px;
+  margin-left: 30px; }
+
+.harry {
+  margin-right: 115px;
+  margin-top: 18px; }
+
+/* banner photos */
+.castle-banner-footer,
+.harry-potter-footer {
+  border: 2px solid black;
+  display: block; }
+
+.castle-banner-footer {
+  width: 100%;
+  height: 512px;
+  background-image: url("https://s3.amazonaws.com/viking_education/web_development/web_app_eng/hogwarts_small.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative; }
+
+.harry-potter-footer {
+  width: 150px;
+  position: absolute;
+  bottom: -40px;
+  left: 16px;
+  border: 2px solid black;
+  z-index: 1; }
+
+.harry-potter-footer img {
+  width: 100%; }
+
+.container-fluid {
+  padding-left: 28px;
+  padding-left: 15px; }
+
+.banner-footer-left-link,
+.banner-footer-links {
+  background-color: transparent;
+  color: black; }
+
+.banner-footer-left-link {
+  border: 2px solid black;
+  width: 200px;
+  padding-bottom: 35px; }
+
+.banner-footer-links {
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  border-left: 0 solid black;
+  width: 125px; }
+
+.edit-profile-link {
+  color: blue !important;
+  text-decoration: underline;
+  width: 468px;
+  text-align: right; }
+
+.grayed-out-link-box {
+  background-color: #ccc;
+  /* light gray*/ }
+
+
+/* BOTTOM HALF OF PAGE */
+
+/* borders */
+
+.box-header {
+  border: 2px solid black; 
+  text-align: center;  
+}
+
+.box-upper {
+  border: 2px solid black;
+  height: 165px;
+}
+
+.box-remainder {
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  padding-left: 5px;
+  padding-right: 15px;
+  margin-bottom: 15px;
+}
+
+.border-bottom {
+  border-bottom: 2px solid black;  
+}
+
+.bottom-gray-border {
+  border-bottom: 2px solid #d3d3d3; /* light gray */  
+}
+
+.background-color-gray {
+  background-color: #f2f2f2; /* light gray */
+}
+
+.box-remainder.about {
+  padding-left: 50px;
+}
+
+.img-large {
+  width: 80px;
+  height: 110px;
+  text-align: center;
+  border: 2px solid black;
+  margin: 10px;
+}
+
+.img-small {
+  width: 50px;
+  height: auto;
+  text-align: center;
+  border: 2px solid black;
+  margin: 5px;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+
+.form-control-textarea {
+  height: 94px;
+  width: 726px;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.tell-the-world {
+  width: 746px;
+  height: 60px;
+  margin: 10px;
+}
+
+.post-copied-button {
+  margin-left: 60px;
+  border: 2px solid black;
+  box-shadow: 2px 2px black;
+}
+
+p.post {
+  margin-left: 10px;
+}
+
+.last-post-comment {
+  height: 98px;
+  width: 730px;
+  margin: 0 0 5px 17px;
+}
+
+.post-copied-bottom-box {
+  height: 40px;
+  width: 770px;
+  padding-top: 8px;
+  margin-left: 15px;
+}
+
+.comment-button-row {
+  height: 35px;
+  padding-top: 5px;
+  padding-left: 30px;
+}
+ 
+.comment-button {
+  margin-left: 20px;
+  border: 2px solid black;
+  box-shadow: 2px 2px black;
+}
+
+.extra-space-at-bottom {
+  height: 30px;
+  width: auto; }

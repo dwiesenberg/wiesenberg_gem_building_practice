@@ -1,0 +1,225 @@
+<!-- Danebook - Top Half of All Pages -->
+
+
+<!-- bootstrap entries -->
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Index Edit Profile</title>
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+    <!-- link to project css stylesheets -->
+    <link rel="stylesheet" type="text/css" href="danebook-edit-profile.css">
+
+  </head>
+  <body>
+
+
+
+<!-- All pages (except Home Page) - Top half -->
+
+        <!-- Navbar: Header -->
+
+    <nav class="navbar navbar-default">
+      <section class="container-fluid">
+        <section class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span> 
+          </button>
+          <a class="navbar-brand" href="#">              </a>
+        </section>
+        <section class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li>
+              <a href="index-home.html"><img class="danish-flag img-circle" src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/danish_flag.gif" alt="Danish Flag"></a>    
+              <!-- Danish Flag -->
+            </li>
+            <li>
+              <h2 class="danebook-header">    Danebook     </h2>
+            </li>
+            <li>
+              <form class="form-inline">
+                <section class="form-group">
+                  <input class="search-for-users form-control" type="text" style="width: 750px;" placeholder="Search for Users">
+                </section>
+              </form>
+            </li> 
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <h4 class="harry">Harry</h4>
+            </li> 
+          </ul>
+        </section>
+      </section>
+    </nav>
+
+
+    <!--  Edit Profile Page - Top half (below Navbar)  -->
+
+    <!-- banner with insert -->
+
+    <section class="container">
+      <section class="row">
+        <section class="col-md-12" style="padding: 0 2px;">
+
+          <div class="castle-banner-footer">
+            <div class="harry-potter-footer"> 
+              <img class="harry-potter" src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/harry_potter_small.jpg" alt="Harry Potter"> 
+            </div>
+          </div>
+
+        <section>
+      </section>
+    </section>
+
+
+    <!-- banner footer -->>
+
+    <nav class="navbar navbar-default" style="margin-bottom: 10px;">
+      <section class="container-fluid">
+        <ul class="nav navbar-nav"> 
+          <li class="navbar-brand banner-footer-left-link"></li> <!-- first column is empty -->
+          <li><a href="index-timeline.html" class="banner-footer-links">Timeline</a></li>
+          <li><a href="index-about.html" class="banner-footer-links grayed-out-link-box">About</a></li> 
+          <li><a href="index-photos.html" class="banner-footer-links">Photos <span style="color: #bfbfbf">(123)</span></a></li>
+          <li><a href="index-friends.html" class="banner-footer-links">Friends <span style="color: #bfbfbf">(542)</span></a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a class="edit-profile-link banner-footer-links">Edit Profile</a></li>      <!-- Link not displayed (see CSS) but details left for box styling purposes -->
+        </ul>
+      </section>
+    </nav>
+
+<!-- End - Top Half -->
+
+
+
+
+    <!-- Bottom half - Edit Profile Page -->
+
+    <!-- Bottom half - Edit Profßile Page - Header -->
+
+
+    <section class="row edit-profile-header">
+      <section class="col-md-2 col-md-offset-5">
+        <h2 class="edit-profile-header" style="margin: 0;border:none;"><strong>Edit Profile</strong></h2>
+      </section>
+    </section>        
+
+
+
+
+    <!-- Bottom half - left -->
+
+    <div class="edit-profile-bottom-half">
+      <section class="row">
+        <section class="col-md-5"> 
+
+          <section class="row">      <!-- add border padding etc  -->
+            <section class="col-md-12">
+              <h3 class="edit-profile-page-bottom-left">Basic Information</h3><br>
+              <section class="col-md-4">
+                <p><strong>Birthday:</strong></p>
+                <p><strong>College:</strong></p>
+                <p><strong>Hometown:</strong></p>
+                <p><strong>Currently Lives:</strong></p>
+              </section>
+              <section class="col-md-8">
+                  <p>July 31st, 1980</p>
+                  <form>
+                    <div class "form-group">
+                      <input type="text" class="form-control" placeholder="Hogsworts College" id="college">
+                    </div>
+                  </form>
+                  <form>
+                    <div class "form-group">
+                      <input type="text" class="form-control" placeholder="Godrick's Hollow, England" id="hometown">
+                    </div>
+                  </form>
+                  <form>
+                    <div class "form-group">
+                      <input type="text" class="form-control" placeholder="Godrick's Hollow, England" id="currently-lives">
+                    </div>
+                  </form>
+
+      <!-- <input> format correct? -->
+
+              </section>
+            </section>
+          </section>                                                      <!-- is mention of this row necessary? -->
+          <section class="row">       <!-- add border padding etc  -->    <!-- is mention of this row necessary? -->
+            <section class="col-md-12">                                 
+              <h3 class="edit-profile-page-bottom-left">Contact Information</h3>  
+              <section class="col-md-4">
+                <p><strong>Email:</strong></p>
+                <p><strong>Telephone:</strong></p>
+              </section>
+              <section class="col-md-8">
+                <p>harry_potter@hogworts.edu</p>
+                <form>
+                  <div class "form-group">
+                    <input type="text" class="form-control" placeholder="Godrick's Hollow, England" id="telephone">
+                  </div>
+                </form>
+                  
+              </section>
+            </section>
+          </section>
+        </section>
+
+      <!-- Bottom half - right -->
+
+        <section class="col-md-6">
+          <h3 class="edit-profile-page-bottom-right">Words to Live By</h3>
+          <form>
+            <div class "form-group">
+              <textarea class="form-control" rows="2" placeholder="lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolorlorem ipsum dolor lorem ipsum dolor"></textarea>
+            </div>
+          </form>
+          <h3 class="edit-profile-page-bottom-right">About Me</h3>
+          <form>
+            <div class "form-group">
+              <textarea class="form-control" rows="9" placeholder="lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolorlorem ipsum dolor lorem ipsum dolorlorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolorlorem ipsum dolor lorem ipsum dolor"></textarea>
+            </div>
+          </form>
+          <br><br><br> 
+
+        </section>
+      </section>
+
+      
+      <!-- button at bottom of page -->
+
+      <section class="row">
+        <section class="col-md-6 col-md-offset-3">
+          <a href="#"><button type="button" class="btn btn-primary btn-lg btn-block" style="color:white;">Save Changes
+          </button></a>
+        </section>  	   
+      </section>
+      <section class="row">
+        <br><br><br><br><br><br>
+      </section>
+
+    </div>
+    <div class="bottom-space">
+    </div>
+
+  </body>
+</html>  
+

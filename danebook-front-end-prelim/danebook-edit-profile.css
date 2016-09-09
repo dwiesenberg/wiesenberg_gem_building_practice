@@ -1,0 +1,114 @@
+/* edit-profile page */
+/* header bar */
+/* body {
+  padding-top: 50px;
+  padding-bottom: 20px;    */
+/* (from jumbotron.css.2)
+    "move down content because
+    fixed navbar is 50px tall" } */
+/* header bar */
+#myNavbar {
+  background-color: DodgerBlue;
+  /* azure */
+  color: white;
+  padding-left: 100px; }
+
+.danish-flag {
+  height: 30px;
+  width: auto; }
+
+h2.danebook-header {
+  margin-top: 14px; }
+
+.search-for-users {
+  height: 32px;
+  width: 750px;
+  margin-top: 13px;
+  margin-left: 30px; }
+
+.harry {
+  margin-right: 115px;
+  margin-top: 18px; }
+
+/* banner photos */
+.castle-banner-footer,
+.harry-potter-footer {
+  border: 2px solid black;
+  display: block; }
+
+.castle-banner-footer {
+  width: 100%;
+  height: 512px;
+  background-image: url("https://s3.amazonaws.com/viking_education/web_development/web_app_eng/hogwarts_small.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative; }
+
+.harry-potter-footer {
+  width: 150px;
+  position: absolute;
+  bottom: -40px;
+  left: 16px;
+  border: 2px solid black;
+  z-index: 1; }
+
+.harry-potter-footer img {
+  width: 100%; }
+
+.container-fluid {
+  padding-left: 28px;
+  padding-left: 15px; }
+
+.banner-footer-left-link,
+.banner-footer-links {
+  background-color: transparent;
+  color: black; }
+
+.banner-footer-left-link {
+  border: 2px solid black;
+  width: 200px;
+  padding-bottom: 35px; }
+
+.banner-footer-links {
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  border-left: 0 solid black;
+  width: 125px; }
+
+.edit-profile-link {
+  display: none;
+  /* not displayed on this sheet */
+  color: blue !important;
+  text-decoration: underline;
+  width: 468px;
+  text-align: right; }
+
+.grayed-out-link-box {
+  background-color: #ccc;
+  /* light gray*/ }
+
+/* BOTTOM HALF OF PAGE */
+.edit-profile-header, .edit-profile-bottom-half {
+  border-left: 2px solid black;
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+  margin: 0; }
+
+.edit-profile-bottom-half {
+  border-bottom: 2px solid black; }
+
+h2.edit-profile-header {
+  text-align: center;
+  margin: 0; }
+
+.edit-profile-page-bottom-left,
+.edit-profile-page-bottom-right {
+  padding-left: 15px; }
+
+.bottom-space {
+  height: 30px;
+  width: auto; }
+
+/*# sourceMappingURL=danebook-edit-profile.css.map */

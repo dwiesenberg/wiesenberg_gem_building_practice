@@ -1,0 +1,149 @@
+/* bootstrap sprint */
+body {
+  font-family: "Helvetica-Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  color: black;
+  /* from bootstrap.min.css.5 */ }
+
+/* header bar */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  /* (from jumbotron.css.2)
+      "move down content because
+      fixed navbar is 50px tall" */ }
+
+/* header -- log in form */
+h1 {
+  font-size: 35px;
+  color: white;
+  line-height: 55px;
+  margin: auto; }
+
+h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+body {
+  margin: auto;
+  width: 97%; }
+
+.container-fluid {
+  display: inline-block;
+  width: 100%;
+  height: 60px;
+  padding-right: 30px;
+  padding-left: 20px;
+  padding-top: 5px;
+  margin: auto;
+  color: black;
+  border: 2px solid black;
+  background-color: #046ddc;
+  /* azure */ }
+
+/* does this have be present because of media inq? */
+@media screen and (max-width: 992px) {
+  .project-name {
+    display: none; } }
+
+.project-name {
+  color: white;
+}
+
+a {
+  font-size: 15px;
+  color: white;
+  text-align: left;
+  margin-left: 2px; }
+
+.radio-inline {
+  height: 20px;
+  width: 100%;
+  padding-top: 10px;
+  background-color: white;
+  border: 2px solid black; }
+
+.email {
+  margin-left: 510px;
+}
+
+.password {
+  padding-left: 0;
+}
+
+.log-in {
+  margin-top: 19px;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.btn {
+  width: 100%;
+  height: 20px;
+  margin: 20px 0 0 0;
+  padding: 0 12px;
+  text-align: center;
+  color: black;
+  background-color: #72ceed;
+  /* light azure */
+  border: 2px solid black;
+  border-radius: none;
+  border-shadow: 2px 2px; }
+
+/* connect with ... (left bottom) */
+/* sign up form */
+.container {
+  width: 1150px;
+  margin: auto; }
+
+/*
+.col-md-7, col-md-4 {
+  display: inline-block;
+  text-align: center;
+  height: 400px;
+  color: black;
+  border: 2px solid black;
+}
+*/
+@media screen and (max-width: 768px) {
+  .col-md-7 {
+    /* invitation area */
+    display: none; } }
+/* invitation area */
+.invitation {
+  color: b3b3b3;
+  /* gray */ }
+
+/* Sign up area */
+
+.radio-inline {
+  width: 22%;
+  border: none;
+  padding-bottom: 25px; }
+
+.form-group {
+  margin-bottom: 5px; }
+
+#day, #month, #year {
+  display: inline-block;
+  width: 31%;
+}
+
+input[type="radio"] {
+  margin-top: 0; }
+
+#sign-up {
+  border-color: black;
+  box-shadow: 2px 2px black; }
+
+.btn {
+  height: 30px;
+  margin: 0; }
+
+.btn-success {
+  color: #fff;
+  background-color: #5cb85c; }
+
+/*# sourceMappingURL=danebook-styles_us3.css.map */

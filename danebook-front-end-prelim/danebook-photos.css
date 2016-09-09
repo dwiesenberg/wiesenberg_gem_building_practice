@@ -1,0 +1,156 @@
+/* About page */
+/* header bar */
+/* body {
+  padding-top: 50px;
+  padding-bottom: 20px;    */
+/* (from jumbotron.css.2)
+    "move down content because
+    fixed navbar is 50px tall" } */
+/* header bar */
+#myNavbar {
+  background-color: DodgerBlue;
+  /* azure */
+  padding-left: 100px;
+  color: white; }
+
+.danish-flag {
+  height: 30px;
+  width: auto; }
+
+h2.danebook-header {
+  margin-top: 14px; }
+
+.search-for-users {
+  height: 32px;
+  width: 750px;
+  margin-top: 13px;
+  margin-left: 30px; }
+
+.harry {
+  margin-right: 115px;
+  margin-top: 18px; }
+
+/* banner photos */
+.castle-banner-footer,
+.harry-potter-footer {
+  border: 2px solid black;
+  display: block; }
+
+.castle-banner-footer {
+  width: 100%;
+  height: 512px;
+  background-image: url("https://s3.amazonaws.com/viking_education/web_development/web_app_eng/hogwarts_small.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative; }
+
+.harry-potter-footer {
+  width: 150px;
+  position: absolute;
+  bottom: -40px;
+  left: 16px;
+  border: 2px solid black;
+  z-index: 1; }
+
+.harry-potter-footer img {
+  width: 100%; }
+
+.container-fluid {
+  padding-left: 28px;
+  padding-left: 15px; }
+
+.banner-footer-left-link,
+.banner-footer-links {
+  background-color: transparent;
+  color: black; }
+
+.banner-footer-left-link {
+  border: 2px solid black;
+  width: 200px;
+  padding-bottom: 35px; }
+
+.banner-footer-links {
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  border-left: 0 solid black;
+  width: 126px; }
+
+.edit-profile-link {
+  color: blue !important;
+  text-decoration: underline;
+  width: 464px;
+  text-align: right; }
+
+.grayed-out-link-box {
+  background-color: #ccc;
+  /* light gray*/ }
+
+/* BOTTOM HALF OF PAGE */
+/* borders */
+.photos-header {
+  border: 2px solid black;
+  margin: 0; }
+
+h2.photos-header {
+  text-align: center;
+  margin: 0; }
+
+.box-header {
+  border: 2px solid black;
+  text-align: center; }
+
+.box-remainder {
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black; }
+
+.background-color-gray {
+  background-color: #d3d3d3;
+  /* light gray */ }
+
+.box-remainder.photos {
+  padding-left: 50px; }
+
+.img-very-large {
+  width: 120px;
+  height: 120px;
+  margin: 10px;
+  margin-left: 70px;
+  text-align: center;
+  position: relative;
+  border: 0; }
+
+.photos {
+  height: 120px;
+  width: 120px; }
+
+.date-uploaded {
+  visibility: hidden;
+  opacity: 0;
+  width: 110px;
+  height: 23px;
+  margin: 0;
+  padding-top: 5px;
+  background-color: #d3d3d3;
+  /* light gray */
+  color: white;
+  font-size: 8px;
+  text-align: center;
+  vertical-align: middle;
+  position: absolute;
+  bottom: 15px;
+  left: 5px;
+  border-top: 2px solid black;
+  z-index: 1; }
+
+.img-very-large:hover .date-uploaded {
+  visibility: visible;
+  opacity: 1; }
+
+.extra-space-at-bottom {
+  display: inline-block;
+  height: 300px; }
+
+/*# sourceMappingURL=danebook-photos.css.map */

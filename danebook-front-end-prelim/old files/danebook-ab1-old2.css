@@ -1,0 +1,204 @@
+/* bootstrap sprint */
+body {
+  font-family: "Helvetica-Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  color: black;
+  /* from bootstrap.min.css.5 */ }
+
+/* header bar */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  /* (from jumbotron.css.2)
+      "move down content because
+      fixed navbar is 50px tall" */ }
+
+/* header -- log in form */
+h1 {
+  font-size: 35px;
+  color: white;
+  line-height: 55px;
+  margin: auto; }
+
+body {
+  margin: auto;
+  width: 97%; }
+
+.container-fluid {
+  display: inline-block;
+  width: 1150px;
+  height: 40px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 5px;
+  margin: auto;
+  color: black;
+  border: 2px solid black;
+  background-color: #046ddc;
+  /* azure */ }
+
+/* does this have be present because of media inq? */
+@media screen and (max-width: 992px) {
+  .project-name {
+    display: none; } }
+/* FOR DISCUSSION */
+/* how do you change .email and remove the offset? 
+    <section class="col-md-2 col-md-offset-5 email">
+      <label>
+        <a>Email</a>
+        <input type="email" name="email-address">
+      </label>
+    </section>
+*/
+a {
+  font-size: 15px;
+  color: white;
+  text-align: left;
+  margin-left: 2px; }
+
+#danebook-header {
+  height: 50px;
+  margin-bottom: 50px; }
+
+form {
+  display: block;
+  margin-top: 60px;
+  margin-left: 10px; }
+
+.form-inline {
+  display: block;
+  margin-top: 60px;
+  width: 500px;
+  height: 30px;
+  margin-left: 40px;
+  border: 2px solid black; }
+
+#harry {
+  margin-top: 30px;
+  margin-right: 100px; }
+
+navbar-collapse {
+  background-color: transparent;
+  color: white; }
+
+.castle-banner-footer,
+.harry-potter-footer {
+  border: 2px solid black;
+  display: block; }
+
+.castle-banner-footer {
+  width: 100%;
+  height: 512px;
+  background-image: url("https://s3.amazonaws.com/viking_education/web_development/web_app_eng/hogwarts_small.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative; }
+
+.harry-potter-footer {
+  width: 150px;
+  position: absolute;
+  bottom: -16px;
+  left: 16px;
+  border: 2px solid black; }
+
+.harry-potter-footer img {
+  width: 100%; }
+
+.banner-footer-links {
+  border: 2px solid black;
+  background-color: white;
+  height: 40px; }
+
+.radio-inline {
+  height: 20px;
+  width: 100%;
+  padding-top: 10px;
+  background-color: white;
+  border: 2px solid black; }
+
+.btn {
+  width: 100%;
+  height: 20px;
+  margin: 20px 0 0 0;
+  padding: 0 12px;
+  text-align: center;
+  color: black;
+  background-color: #72ceed;
+  /* light azure */
+  border: 2px solid black;
+  border-radius: none;
+  border-shadow: 2px 2px; }
+
+/* connect with ... (left bottom) */
+/* sign up form */
+.container {
+  width: 1150px;
+  margin: auto; }
+
+/*
+.col-md-7, col-md-4 {
+  display: inline-block;
+  text-align: center;
+  height: 400px;
+  color: black;
+  border: 2px solid black;
+}
+*/
+@media screen and (max-width: 768px) {
+  .col-md-7 {
+    /* invitation area */
+    display: none; } }
+/* invitation area */
+.invitation {
+  color: b3b3b3;
+  /* gray */ }
+
+/* Sign up area */
+.form-control {
+  display: inline-block;
+  width: 18%; }
+
+.radio-inline {
+  width: 22%;
+  border: none;
+  padding-bottom: 25px; }
+
+.form-group {
+  margin-bottom: 5px; }
+
+input[type="radio"] {
+  margin-top: 0; }
+
+.btn {
+  height: 30px;
+  margin: 0;
+  border-color: black;
+  box-shadow: 2px 2px; }
+
+.btn-success {
+  color: #fff;
+  background-color: #5cb85c; }
+
+/* All subsiduary pages -- top half 
+.navbar-header {
+  display: inline-block;
+  width: 100px;
+  height: 40px;
+  padding-right: 30px;
+  padding-left: 20px;
+  padding-top: 5px;
+  margin: auto;
+  color: white;
+  border: 2px solid black;
+  background-color: transparent; }
+
+/*
+.navbar {
+  height: 0;
+  border: none;
+}
+*/
+/*# sourceMappingURL=danebook-ab1.css.map */
+
+/*# sourceMappingURL=danebook-ab1.css.map */
