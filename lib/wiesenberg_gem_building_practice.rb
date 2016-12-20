@@ -1,4 +1,4 @@
-require 'wiesenberg_gem_building_practice/version'
+# require 'wiesenberg_gem_building_practice/version'
 
 module WiesenbergGemBuildingPractice
 # Gem Building Practice: Rock Paper Scissors
